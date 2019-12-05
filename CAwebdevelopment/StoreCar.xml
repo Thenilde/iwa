@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<storecar>
+  <section name="Brand-news">
+    <brand car="true">
+      <car>Ford</car>
+      <price>34.950.00</price>
+    </brand>
+
+    <brand>
+      <car>Abarth</car>
+      <price>27.540.34</price>
+</brand>
+    
+  </section>
+  <section name="Used cars">
+    <brand>
+      <car>BMW</car>
+      <price>35.800.67</price>
+    </brand>
+
+    <brand>
+      <car>Jeep</car>
+      <price>84.296.45</price>
+    </brand>
+    <brand Brand-news="true">
+      <car>Dodge</car>
+      <price>65.265.88</price>
+    </brand>
+
+    <brand>
+      <car>Fiat</car>
+      <price>53.997.78</price>
+    </brand>
+
+  </section>
+  <section name="cars on promotion">
+    <brand>
+      <car>Dacia</car>
+      <price>17.929.88</price>
+    </brand>
+
+    <brand>
+      <car>Ford</car>
+      <price>26.994.45</price>
+    </brand>
+
+    <brand  Brand-news="true">
+      <car>DS</car>
+      <price>97.349.78</price>
+    </brand>
+
+  </section>
+  <section name="Special price">
+    <brand>
+      <car>Honda</car>
+      <price>11.994.56</price>
+    </brand>
+
+    <brand>
+      <car>Ferrari</car>
+      <price>12.99</price>
+    </brand>
+    <brand Brand-newa="true">
+      <car>Jaguar</car>
+      <price>49.479.78</price>
+    </brand>
+  </section>
+</storecar>
