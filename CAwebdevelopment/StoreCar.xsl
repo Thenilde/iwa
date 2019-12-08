@@ -19,13 +19,13 @@
                                     <xsl:value-of select="@name" />
                                 </td>
                             </tr>
-                            <xsl:for-each select="model">
+                            <xsl:for-each select="brand">
                             <tr id="{position()}">
                                 <xsl:attribute name="Brand-news">
                                     <xsl:value-of select="boolean(./@Brand-news)" />
                                 </xsl:attribute>
                                 <td align="center">
-                                    <input name="item0" type="checkbox" />
+                                    <input name="car0" type="checkbox" />
                                 </td>
                                 <td>
                                     <xsl:value-of select="car" />
