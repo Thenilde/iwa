@@ -10,6 +10,18 @@
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/StoreCarStyles.css" rel="stylesheet">
+    <script src="js/StoreCar.js"></script>
+    <script>
+      window.addEventListener("load ", function(){
+          document.forms[1].txtBillAmt.value=calculateBill('menuTable');
+          document.querySelector("#calcBill").addEventListener("click", function(){
+              document.forms[1].txtBillAmt.value=calculateBill('manuTable');
+          });
+          document.querySelector("#showBran").addEventListener("click", function){
+            highlightBrand-news('menuTable',this.checked);  
+          });
+    });
+    </script>
 </head>
 
 <body>
